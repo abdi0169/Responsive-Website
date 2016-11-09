@@ -36,7 +36,7 @@ h2{
     font: bold 1.5rem 'Droid Serif', 'Gentium Basic', serif;
 }
 li, p, a{
-    font: normal 1.2rem 'PT Sans Narrow', 'source sans pro', sans-serif;
+    font: normal 1.318rem 'PT Sans Narrow', 'source sans pro', sans-serif;
 }
 pre, code, kbd{
     font: normal 1.2rem 'Droid Sans Mono', 'Inconsolata', 
@@ -136,12 +136,44 @@ footer{
 }
 
 @media screen and (min-width:600px){
-
+ body {
+        background: #FFFFF8;
+    }
+p  {
+     margin-bottom: auto;
+    margin-top: .5rem;
+}
+main{
+    width: 100%;
+}
+.cupcake {
+    width: 67%;
+    height: 300px;
+    overflow: hidden;
+    background-position: center;
+    border-radius: 3px;
+    }
     
 }
 @media screen and (min-width: 800px){
-    
+        body {
+        background: #FFFFF8;
+    }
+main{
+    width: 100%;
+}p  {
+     margin-bottom: auto;
+    margin-top: .5rem;
+}
 }
 @media screen and (min-width: 1200px){
-    
+        body {
+        background: #FFFFF8;
+    }
+main{
+    width: 100%;
+}p  {
+     margin-bottom: auto;
+    margin-top: .5rem;
+}
 }
