@@ -1,0 +1,147 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif|Source+Sans+Pro|Lora|Roboto|Gentium+Basic|Inconsolata|PT+Sans+Narrow');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Droid Sans', 'Roboto', sans-serif;
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 4.236rem 'Droid Serif', 'Lora', serif;
+}
+h2{
+    font: bold 1.5rem 'Droid Serif', 'Gentium Basic', serif;
+}
+li, p, a{
+    font: normal 1.2rem 'PT Sans Narrow', 'source sans pro', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.2rem 'Droid Sans Mono', 'Inconsolata', 
+}
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background-color: #FFFFF8;
+}
+
+p  {
+     margin-bottom: auto;
+    margin-top: .5rem;
+  
+}
+header{
+  top: 10%;    
+  left:0;
+  right:0;
+  margin:0 auto;
+  width: 50%;
+  height: 100px;
+  border:thin solid black;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.masthead{
+    background-image: url('https://images.unsplash.com/photo-1426869884541-df7117556757?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=d5678532119d4da43ef13fff3396c052');
+   background-color: #000000; 
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 3000px;
+    height: 417px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   padding-bottom:15%;
+    max-width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-position: center center !important;
+    border-radius: 2px;
+}
+nav{
+    width: 100%;
+}
+nav>ul{
+    width: 100%;
+}
+nav li{
+    width: 20%;
+    list-style: none;
+    text-align: center;
+    padding: 0.618rem;
+	display:inline-block;
+	float: left;
+    display: inline-block;
+    margin-bottom: 60px;
+    
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: inline;
+    font: italic 1.5rem 'Droid Sans', sans-serif;
+    text-align: center; 
+    float: left;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    
+}
+main{
+    width: 100%;
+}
+.cupcake {
+    width: 67%;
+    height: 300px;
+    overflow: hidden;
+    background-position: center;
+    border-radius: 3px;
+}
+.col div img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-size: cover;
+}
+footer{
+    width: 100%;
+}
+
+@media screen and (min-width:600px){
+
+    
+}
+@media screen and (min-width: 800px){
+    
+}
+@media screen and (min-width: 1200px){
+    
+}
